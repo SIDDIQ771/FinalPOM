@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="51446" started-at="2023-03-15T17:04:59 IST" finished-at="2023-03-15T17:05:51 IST">
+  <suite name="Default suite" duration-ms="87160" started-at="2023-03-16T22:40:25 IST" finished-at="2023-03-16T22:41:52 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="51446" started-at="2023-03-15T17:04:59 IST" finished-at="2023-03-15T17:05:51 IST">
+    <test name="Default test" duration-ms="87160" started-at="2023-03-16T22:40:25 IST" finished-at="2023-03-16T22:41:52 IST">
       <class name="script.TestScript">
-        <test-method status="PASS" signature="setup()[pri:0, instance:script.TestScript@33723e30]" name="setup" is-config="true" duration-ms="7875" started-at="2023-03-15T17:04:59 IST" finished-at="2023-03-15T17:05:07 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:script.TestScript@33723e30]" name="setup" is-config="true" duration-ms="29207" started-at="2023-03-16T22:40:25 IST" finished-at="2023-03-16T22:40:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setupExtent()[pri:0, instance:script.TestScript@33723e30]" name="setupExtent" is-config="true" duration-ms="526" started-at="2023-03-15T17:05:07 IST" finished-at="2023-03-15T17:05:08 IST">
+        <test-method status="PASS" signature="setupExtent()[pri:0, instance:script.TestScript@33723e30]" name="setupExtent" is-config="true" duration-ms="4871" started-at="2023-03-16T22:40:54 IST" finished-at="2023-03-16T22:40:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupExtent -->
-        <test-method status="PASS" signature="loginTest()[pri:1, instance:script.TestScript@33723e30]" name="loginTest" duration-ms="7513" started-at="2023-03-15T17:05:08 IST" finished-at="2023-03-15T17:05:15 IST">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:script.TestScript@33723e30]" name="loginTest" duration-ms="11279" started-at="2023-03-16T22:40:59 IST" finished-at="2023-03-16T22:41:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:script.TestScript@33723e30]" name="teardown" is-config="true" duration-ms="5" started-at="2023-03-15T17:05:15 IST" finished-at="2023-03-15T17:05:15 IST">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:script.TestScript@33723e30]" name="teardown" is-config="true" duration-ms="3" started-at="2023-03-16T22:41:11 IST" finished-at="2023-03-16T22:41:11 IST">
           <params>
             <param index="0">
               <value>
@@ -30,11 +30,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setupExtent()[pri:0, instance:script.TestScript@33723e30]" name="setupExtent" is-config="true" duration-ms="1" started-at="2023-03-15T17:05:15 IST" finished-at="2023-03-15T17:05:15 IST">
+        <test-method status="PASS" signature="setupExtent()[pri:0, instance:script.TestScript@33723e30]" name="setupExtent" is-config="true" duration-ms="1" started-at="2023-03-16T22:41:11 IST" finished-at="2023-03-16T22:41:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupExtent -->
-        <test-method status="PASS" signature="ClickItems(java.lang.String, java.lang.String)[pri:2, instance:script.TestScript@33723e30]" name="ClickItems" duration-ms="8241" started-at="2023-03-15T17:05:15 IST" data-provider="Catalogue" finished-at="2023-03-15T17:05:23 IST">
+        <test-method status="PASS" signature="clickItems(java.lang.String, java.lang.String)[pri:2, instance:script.TestScript@33723e30]" name="clickItems" duration-ms="10966" started-at="2023-03-16T22:41:11 IST" data-provider="Catalogue" finished-at="2023-03-16T22:41:22 IST">
           <params>
             <param index="0">
               <value>
@@ -49,23 +49,23 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickItems -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:script.TestScript@33723e30]" name="teardown" is-config="true" duration-ms="1" started-at="2023-03-15T17:05:23 IST" finished-at="2023-03-15T17:05:23 IST">
+        </test-method> <!-- clickItems -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:script.TestScript@33723e30]" name="teardown" is-config="true" duration-ms="1" started-at="2023-03-16T22:41:22 IST" finished-at="2023-03-16T22:41:22 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickItems status=SUCCESS method=TestScript.ClickItems(java.lang.String, java.lang.String)[pri:2, instance:script.TestScript@33723e30] output={null}]]]>
+                <![CDATA[[TestResult name=clickItems status=SUCCESS method=TestScript.clickItems(java.lang.String, java.lang.String)[pri:2, instance:script.TestScript@33723e30] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setupExtent()[pri:0, instance:script.TestScript@33723e30]" name="setupExtent" is-config="true" duration-ms="1" started-at="2023-03-15T17:05:23 IST" finished-at="2023-03-15T17:05:23 IST">
+        <test-method status="PASS" signature="setupExtent()[pri:0, instance:script.TestScript@33723e30]" name="setupExtent" is-config="true" duration-ms="1" started-at="2023-03-16T22:41:22 IST" finished-at="2023-03-16T22:41:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupExtent -->
-        <test-method status="PASS" signature="ClickItems(java.lang.String, java.lang.String)[pri:2, instance:script.TestScript@33723e30]" name="ClickItems" duration-ms="8612" started-at="2023-03-15T17:05:23 IST" data-provider="Catalogue" finished-at="2023-03-15T17:05:32 IST">
+        <test-method status="PASS" signature="clickItems(java.lang.String, java.lang.String)[pri:2, instance:script.TestScript@33723e30]" name="clickItems" duration-ms="9781" started-at="2023-03-16T22:41:22 IST" data-provider="Catalogue" finished-at="2023-03-16T22:41:32 IST">
           <params>
             <param index="0">
               <value>
@@ -80,60 +80,60 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClickItems -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:script.TestScript@33723e30]" name="teardown" is-config="true" duration-ms="0" started-at="2023-03-15T17:05:32 IST" finished-at="2023-03-15T17:05:32 IST">
+        </test-method> <!-- clickItems -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:script.TestScript@33723e30]" name="teardown" is-config="true" duration-ms="2" started-at="2023-03-16T22:41:32 IST" finished-at="2023-03-16T22:41:32 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickItems status=SUCCESS method=TestScript.ClickItems(java.lang.String, java.lang.String)[pri:2, instance:script.TestScript@33723e30] output={null}]]]>
+                <![CDATA[[TestResult name=clickItems status=SUCCESS method=TestScript.clickItems(java.lang.String, java.lang.String)[pri:2, instance:script.TestScript@33723e30] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setupExtent()[pri:0, instance:script.TestScript@33723e30]" name="setupExtent" is-config="true" duration-ms="2" started-at="2023-03-15T17:05:32 IST" finished-at="2023-03-15T17:05:32 IST">
+        <test-method status="PASS" signature="setupExtent()[pri:0, instance:script.TestScript@33723e30]" name="setupExtent" is-config="true" duration-ms="3" started-at="2023-03-16T22:41:32 IST" finished-at="2023-03-16T22:41:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupExtent -->
-        <test-method status="PASS" signature="RemoveItem()[pri:3, instance:script.TestScript@33723e30]" name="RemoveItem" duration-ms="4074" started-at="2023-03-15T17:05:32 IST" finished-at="2023-03-15T17:05:36 IST">
+        <test-method status="PASS" signature="removeItems()[pri:3, instance:script.TestScript@33723e30]" name="removeItems" duration-ms="5007" started-at="2023-03-16T22:41:32 IST" finished-at="2023-03-16T22:41:37 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RemoveItem -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:script.TestScript@33723e30]" name="teardown" is-config="true" duration-ms="3" started-at="2023-03-15T17:05:36 IST" finished-at="2023-03-15T17:05:36 IST">
+        </test-method> <!-- removeItems -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:script.TestScript@33723e30]" name="teardown" is-config="true" duration-ms="2" started-at="2023-03-16T22:41:37 IST" finished-at="2023-03-16T22:41:37 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=RemoveItem status=SUCCESS method=TestScript.RemoveItem()[pri:3, instance:script.TestScript@33723e30] output={null}]]]>
+                <![CDATA[[TestResult name=removeItems status=SUCCESS method=TestScript.removeItems()[pri:3, instance:script.TestScript@33723e30] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setupExtent()[pri:0, instance:script.TestScript@33723e30]" name="setupExtent" is-config="true" duration-ms="1" started-at="2023-03-15T17:05:36 IST" finished-at="2023-03-15T17:05:36 IST">
+        <test-method status="PASS" signature="setupExtent()[pri:0, instance:script.TestScript@33723e30]" name="setupExtent" is-config="true" duration-ms="1" started-at="2023-03-16T22:41:37 IST" finished-at="2023-03-16T22:41:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupExtent -->
-        <test-method status="PASS" signature="PlaceOrder()[pri:4, instance:script.TestScript@33723e30]" name="PlaceOrder" duration-ms="13456" started-at="2023-03-15T17:05:36 IST" finished-at="2023-03-15T17:05:50 IST">
+        <test-method status="PASS" signature="purchase()[pri:4, instance:script.TestScript@33723e30]" name="purchase" duration-ms="14165" started-at="2023-03-16T22:41:37 IST" finished-at="2023-03-16T22:41:51 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PlaceOrder -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:script.TestScript@33723e30]" name="teardown" is-config="true" duration-ms="0" started-at="2023-03-15T17:05:50 IST" finished-at="2023-03-15T17:05:50 IST">
+        </test-method> <!-- purchase -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:script.TestScript@33723e30]" name="teardown" is-config="true" duration-ms="0" started-at="2023-03-16T22:41:51 IST" finished-at="2023-03-16T22:41:51 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=PlaceOrder status=SUCCESS method=TestScript.PlaceOrder()[pri:4, instance:script.TestScript@33723e30] output={null}]]]>
+                <![CDATA[[TestResult name=purchase status=SUCCESS method=TestScript.purchase()[pri:4, instance:script.TestScript@33723e30] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="Extent()[pri:0, instance:script.TestScript@33723e30]" name="Extent" is-config="true" duration-ms="1032" started-at="2023-03-15T17:05:50 IST" finished-at="2023-03-15T17:05:51 IST">
+        <test-method status="PASS" signature="extent()[pri:0, instance:script.TestScript@33723e30]" name="extent" is-config="true" duration-ms="1566" started-at="2023-03-16T22:41:51 IST" finished-at="2023-03-16T22:41:52 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Extent -->
+        </test-method> <!-- extent -->
       </class> <!-- script.TestScript -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

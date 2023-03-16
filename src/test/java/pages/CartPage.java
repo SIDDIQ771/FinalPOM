@@ -32,7 +32,7 @@ public class CartPage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void DeleteItem() throws InterruptedException {
+	public void deleteItem() throws InterruptedException {
 		
 		Cart.click();
 		Thread.sleep(3000);
@@ -40,16 +40,16 @@ public class CartPage extends TestBase {
 		DelClk.click();
 		String now = AftDel.getText();
 		if(then.equals(now)) {
-			System.out.println("Item Deleted");
+			System.out.println("Item not Deleted");
 		}
 		else {
-			System.out.println("Item not Deleted");
+			System.out.println("Item Deleted");
 		}
 		
 		
 	}
 	
-	public void PlaceOrder() throws InterruptedException {
+	public void placeOrder() throws InterruptedException {
 		Thread.sleep(4000);
 		driver.findElement(By.cssSelector("button[data-toggle='modal']")).click(); 
 	    Thread.sleep (3000);

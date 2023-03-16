@@ -16,7 +16,7 @@ public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
 
-	public void chrome() throws IOException {
+	public static void webBrowser() throws IOException {
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*");
@@ -25,12 +25,6 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 		driver.get("https://www.demoblaze.com/");
-		/*String path=System.getProperty("user.dir")+"\\src\\test\\resources\\ConfigFiles\\Config.properties";
-	    prop=new Properties();
-		FileInputStream obtained = new FileInputStream(path);
-		prop.load(obtained);
-		driver.get(prop.getProperty("url"));
-		driver.get("https://www.demoblaze.com/");*/
 
 }
 }

@@ -6,8 +6,11 @@
       <class name="script.TestScript">
         <methods>
           <include name="teardown"/>
+          <include name="PlaceOrder"/>
+          <include name="RemoveItem"/>
           <include name="loginTest"/>
           <include name="setup"/>
+          <include name="ClickItems" invocation-numbers="0 1"/>
           <include name="Extent"/>
           <include name="setupExtent"/>
         </methods>

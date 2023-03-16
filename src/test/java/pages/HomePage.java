@@ -17,7 +17,7 @@ public class HomePage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void SelectItems(String category, String itemName) throws InterruptedException {
+	public void selectItems(String category, String itemName) throws InterruptedException {
 		
 		driver.findElement(By.xpath("//a[text()='Home ']")).click();
 		Thread.sleep(2000);
@@ -34,4 +34,15 @@ public class HomePage extends TestBase {
 		Alert alert = driver.switchTo().alert();
 		System.out.println(itemName+","+alert.getText());
 		alert.accept();
-}}
+		
+	}
+	
+	public void logOut() {
+		driver.findElement(By.xpath("//li/a[@id='logout2']")).click();
+	}
+	
+	public void navToCart() {
+		driver.findElement(By.xpath("//li/a[@id='cartur']")).click();
+	}
+
+}

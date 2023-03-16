@@ -14,7 +14,7 @@ public class LoginPage extends TestBase {
 	WebElement logintab;
 	
 	@FindBy(xpath = "//button[@onclick='logIn()']")
-	WebElement Sbtlogin;
+	WebElement submit;
 	
 	public LoginPage() {
 		PageFactory.initElements(driver, this);
@@ -25,7 +25,7 @@ public class LoginPage extends TestBase {
 		 logintab.click();
 		 driver.findElement(By.xpath("//input[@id='loginusername']")).sendKeys("ninja");
 		 driver.findElement(By.xpath("//input[@id='loginpassword']")).sendKeys("hatori");
-		 Sbtlogin.click();
+		 submit.click();
 		 Thread.sleep(3000);
 		 driver.findElement(By.xpath("//li/a[contains(text(),'Home')]")).click();
 		 WebElement who = driver.findElement(By.xpath("//li/a[@id='nameofuser']"));

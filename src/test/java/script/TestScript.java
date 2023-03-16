@@ -38,10 +38,10 @@ public class TestScript extends TestBase {
 		spark = new ExtentSparkReporter("target\\SparkReport.html");
 		reports.attachReporter(spark);
 	}
-	
+    
 	@BeforeTest
 	public void setup() throws IOException {
-		chrome();
+		TestBase.webBrowser();
 	}
 	
 	@Test(priority=1)
@@ -54,25 +54,25 @@ public class TestScript extends TestBase {
 	}
 	
 	@Test(priority=2, dataProvider="Catalogue")
-	public void ClickItems(String category, String itemName) throws InterruptedException {
+	public void clickItems(String category, String itemName) throws InterruptedException {
 		extentTest = reports.createTest("AddItems Test");
 		HomePage items = new HomePage();
-		items.SelectItems(category, itemName);
+		items.selectItems(category, itemName);
 	}
 	
 	@Test(priority=3)
-	public void RemoveItem() throws InterruptedException {
+	public void removeItems() throws InterruptedException {
 		extentTest = reports.createTest("DeleteItems Test");
 		CartPage pdt =new CartPage();
-		pdt.DeleteItem();
+		pdt.deleteItem();
 			
 		}
 	
 	@Test(priority=4)
-	public void PlaceOrder() throws InterruptedException {
+	public void purchase() throws InterruptedException {
 		extentTest = reports.createTest("PlaceOrder Test");
 		CartPage buy = new CartPage();
-		buy.PlaceOrder();
+		buy.placeOrder();
 	}
 	
 	@DataProvider(name="Catalogue")
@@ -98,7 +98,7 @@ public class TestScript extends TestBase {
 		}
 	}
 	@AfterTest
-	public void Extent() {
+	public void extent() {
 		driver.close();
 		reports.flush();
 		
